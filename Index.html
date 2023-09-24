@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Wing Dave</title>
+</head>
+<body>
+    <script>
+        // Get the referring URL
+        const referringURL = document.referrer;
+
+        // Check if the referring URL contains a specific keyword or domain
+        if (referringURL.includes("darkwingdave.com")) {
+            // Redirect to the subfolder
+            window.location.href = "/DarkWingDave/";
+        } else {
+            // Redirect to a default location or handle accordingly
+            window.location.href = "/default-page/";
+        }
+    </script>
+</body>
+</html>
