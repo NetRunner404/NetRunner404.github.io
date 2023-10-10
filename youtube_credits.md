@@ -52,7 +52,7 @@
   - Design by: [@Avomance](https://www.youtube.com/user/Avomance)
 
 - **Kelp Farm**
-  - Design by: [@JC_Playz](https://www.youtube.com/user/JC_Playz), [@Dark_Wing_Dave](https://www.youtube.com/channel/UCp16gEGotQs-6trjEZpOYjg)
+  - Design by: [@JC_Playz](https://www.youtube.com/user/JC_Playz)
 
 - **8 Furnace Smelter**
   - Design by: [@ilmango](https://www.youtube.com/user/ilmango)
