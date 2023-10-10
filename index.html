@@ -32,7 +32,43 @@
 <body>
 
     <!--Navigation Bar-->
-    <div id="navbar"></div>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
+        <div class="container-fluid">
+            <div class="mx-4">
+                <a class="navbar-brand" href="https://darkwingdave.com">
+                    <img src="images/favicon-32x32.png" class="d-inline-block align-top" alt="">
+                    DarkWingDave.com
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://youtube.com/@Dark_Wing_Dave">YouTube</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://twitch.tv/Dark_Wing_Dave">Twitch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://youtube.com/@Dark_Wing_Dave2">Stream Replays</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://x.com/Dark_Wing_Dave">Twitter-X</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/DarkWingDaveOfficial">Facebook</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://darkwingdave.com/friends/">Friends</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!--Content Row 1-->
     <div class="container my-4 ">
@@ -67,40 +103,68 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    
     <!--Content Row 2-->
     <div class="container my-4 ">
-        <!--div class="row justify-content-center"></div-->
+        <div class="row justify-content-center">            
+        </div>
 
         <!-- Links -->
-        <div id="my-links"></div>
+        <div class="my-4 text-body">
+            <div class="text-center mb-4">
+                <h1>MY LINKS</h1>
+            </div>
+            <div class="row">
+                <style>
+                    I {
+                        font-size: 3em;                        
+                    }
+                </style>                
+                <div class="col">
+                    <div class="text-center">
+                        <h4>YouTube</h4>
+                        <a href="https://youtube.com/@Dark_Wing_Dave"><i class="bi bi-youtube" style="color: #c4302b;"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Twitch.tv</h4>
+                        <a href="https://twitch.tv/Dark_Wing_Dave"><i class="bi bi-twitch" style="color: purple;"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Replays</h4>
+                        <a href="https://www.youtube.com/@Dark_Wing_Dave2/playlists"><i class="bi bi-arrow-counterclockwise" style="color: #c4302b;"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Twitter</h4>
+                        <a href="https://x.com/Dark_Wing_Dave"><i class="bi bi-twitter-x" style="color: black;"></i></a>                        
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Facebook</h4>
+                        <a href="https://www.facebook.com/DarkWingDaveOfficial"><i class="bi bi-facebook" style="color: #3b5998;"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="text-center">
+                        <h4>Linktree</h4>
+                        <a href="https://linktr.ee/dark_wing_dave"><i class="bi bi-link" style="color: green"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mb-4">
+            <footer>
+                <p>&copy; 2023 DarkWingDave.com All rights reserved.</p>
+            </footer>
+        </div>
     </div>
-
-    <!--Footer-->
-    <div id="footer"></div>
-    
-    <script>
-        // Function to load and inject HTML from a file
-        function loadHTML(url, targetElementId) {
-            fetch(url)
-                .then(response => response.text())
-                .then(html => {
-                    document.getElementById(targetElementId).innerHTML = html;
-                })
-                .catch(error => console.error('Error loading HTML:', error));
-        }
-
-        // Load and inject the navigation bar
-        loadHTML('navbar.html', 'navbar');
-
-        // Load and inject the "My Links" section
-        loadHTML('my-links.html', 'my-links');
-
-        // Load and inject the "footer" section
-        loadHTML('footer.html', 'footer');
-    </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
 </body>
 </html>
